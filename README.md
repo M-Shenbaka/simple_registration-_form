@@ -1,6 +1,6 @@
 # 📝 Simple Registration Form with Real-Time Validation
 
-This project is a basic registration form built using **HTML**, **CSS**, and **JavaScript**. It demonstrates real-time form validation and dynamic button state handling using vanilla JavaScript.
+This project is a basic registration form built using **HTML**, **CSS**, and **JavaScript**. It demonstrates real-time form validation and dynamic button state handling using JavaScript.
 
 ## 🚀 Features
 
