@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration Form</title>
+</head>
+<style>
+    .error
+    {
+        color: red;
+        font-size: 0.9em;
+    }
+</style>
+<body>
+    <form onsubmit="return validateForm(event)">
+        <table border="1">
+            <thead>
+                <tr>
+                    <th colspan="2">Simple Registration Form</th>
+                </tr>
+        
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Name: </td>
+                    <td>
+                        <input type="text" placeholder="Enter your Name" id="name" ><br>
+                        <span id="nameError" class="error"></span>
+                    </td>
+                </tr>
+                <tr>
+                    <td>Email : </td>
+                    <td>
+                        <input type="text"placeholder="Enter your Email" id="email"><br>
+                        <span id="emailError" class="error"></span>
+                    </td>
+                </tr>
+                <tr>
+                    <td>Password : </td>
+                    <td>
+                        <input type="password"placeholder="Enter your password" id="password"><br>
+                        <span id="passwordError" class="error"></span>
+                    </td>
+                </tr>
+                <tr>
+                    <td colspan="2"><button id="submit"  style="margin-left: 90px;">Submit</button> </td>
+                </tr>
+            </tbody>
+        </table>
+    </form>
+    <script src="script.js"></script>
+</body>
+</html>
+
